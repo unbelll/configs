@@ -1,0 +1,6 @@
+# /etc/cron.d/ksm_settings: configure ksm if qemu run
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+*/5 * * * *   root    python /opt/ksm_settings.py
