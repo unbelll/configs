@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Google Chrome Beta
+Icon=chrome.png
+Path=/home/maxik
+Exec=/opt/google/chrome-beta/chrome --user-data-dir=/home/maxik/.config/google-chrome-beta --memory-model=low --process-per-site --start-maximized
+StartupNotify=false
+StartupWMClass=Chrome
+OnlyShowIn=Unity;
+X-UnityGenerated=true
